@@ -1,3 +1,6 @@
+body {
+  font-family: sans-serif;
+}
 .login-button {
   display: flex;
   justify-content: right;
@@ -44,4 +47,39 @@
 
 .search-box input:focus {
   outline: none;
+}
+
+.product-img {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.product-info {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.login-area {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  width: 40em;
+}
+
+.choice {
+  font-size: 11px;
+  color: #63786a;
+  font-weight: bold;
+  height: 20px;
+}
+
+.drop-down {
+  margin-top: 20px;
+}
+
+.add-button {
+  margin-top: 20px;
+  width: 100%;
 }
