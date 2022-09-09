@@ -22,11 +22,12 @@ const ProductAll = () => {
       {/* 부트스트랩에서 컨테이너는 아이템을 가운데로 모이게 해주는 역할을 함 */}
       <Container>
         <Row>
-          {productList.map((item) => (
-            <Col lg={3}>
-              <ProductCard item={item} />
-            </Col>
-          ))}
+          {productList.length > 0 &&
+            productList.map((item) => (
+              <Col md={3} sm={12} key={item.id}>
+                <ProductCard item={item} />
+              </Col>
+            ))}
         </Row>
       </Container>
     </div>
